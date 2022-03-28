@@ -1,0 +1,27 @@
+{
+  "name": "ramadan-name-writer",
+  "version": "1.0.0",
+  "description": "Ramathan text name write",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "keywords": [
+    "ramazon",
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Zokirkhon Kotibkhonov zokirxonkotibxanov@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^5.2.1",
+    "handlebars": "^4.7.7",
+    "jimp": "^0.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
