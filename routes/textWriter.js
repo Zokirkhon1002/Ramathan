@@ -17,7 +17,7 @@ router.post("/", async (req, res) => {
     let imgExported = "./public/export/image.jpg";
 
     let textData = {
-      text: `${req.body.name}`.toUpperCase(),
+      text: `${req.body.name}`.charAt(0).toUpperCase() + `${req.body.name}`.slice(1),
       maxWidth: 606,
       maxHeight: 400,
       ofX: 10,
