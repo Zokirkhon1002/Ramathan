@@ -23,6 +23,8 @@ router.post("/", async (req, res) => {
       ofX: 10,
       ofY: 300,
     };
+    
+    textData.text += "/nRamazon muborak"
 
 
     const cloneRamadan = await Jimp.read(imgRaw);
