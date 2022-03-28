@@ -25,7 +25,7 @@ router.post("/", async (req, res) => {
     };
     
     if(textData.text.length){
-       textData.text += `\nRamazon muborak`
+       textData.text += `\nramazon muborak`
     }
 
 
